@@ -1,7 +1,7 @@
 var planetsMetadata = [
 	{
 		name : 'Alderaan',
-		image : './href/landscapes/Alderaan.png',
+		image : './href/landscapes/alderaan.png',
 		asset : './href/assets/alderaan_zoom.dae',
 		capital : "Aldera",
 		abstract : "Alderaan, située dans les Mondes Centraux, était la deuxième planète du système Alderaan, et le foyer de nombreux héros, notamment Leia Organa Solo, Bail Organa et Ulic Qel-Droma. Connue intergalactiquement pour sa beauté préservée, sa culture raffinée et son engagement envers la paix, les Alderaaniens travaillaient avec et pour la nature qu'ils souhaitaient protéger du mieux qu'ils pouvaient",
@@ -13,7 +13,7 @@ var planetsMetadata = [
 	},
 	{
 		name : 'Naboo',
-		image : './href/landscapes/Naboo.png',
+		image : './href/landscapes/naboo.png',
 		asset : './href/assets/naboo_zoom.dae',
 		capital : "Theed (Humaine), Otho Gunga (Gungan)",
 		abstract : "Naboo (prononcé /nə'bu/) était une planète du secteur majeur de Chomell, situé près de la Brodure Extérieure. C'étiat un territoire intact composé de large plaines , marécages et mers. C'était notamment la patrie de figures historiques majeures ayant joué d'importants rôles dans la chute de la République et la montée de l'Empire. Notamment Padmé Amidala, Empereur Palpatine et Jar Jar Binks.",
@@ -26,7 +26,7 @@ var planetsMetadata = [
 	},
 	{
 		name : 'Coruscant',
-		image : './href/landscapes/Coruscant.png',
+		image : './href/landscapes/coruscant.png',
 		asset : './href/assets/coruscant_zoom.dae',
 		capital : "Galactic City",
 		abstract : "Coruscant, (prononcé /'kɔɹəsɑnt/), originellement appelée Notron, aussi connue comme le Centre Impérial ou la Reine du Noyau, était une planète située au Coeur de la Galaxie. Il était généralement accordé que Coruscant était, durant la majorité de l'histoire galactique, le monde le plus important de la galaxie. À diverses époques, il s'agissait de la capitale de la République Galactique, de l'Empire Galactique, de la Nouvelle République, de l'empire Yuuzhan Vong, de l'Alliance Galactique, brièvement de l'Empire Fel, de l'Empire Galactique de Dark Krayt, et de la Fédération Galactique du Triumvirate. En contrôlant Coruscant, ces gouvernemens contrôlaient la plupart de la galaxie.",
@@ -38,7 +38,7 @@ var planetsMetadata = [
 	},
 	{
 		name : "Tatooine",
-		image : './href/landscapes/Tatooine.png',
+		image : './href/landscapes/tatooine.png',
 		asset : './href/assets/tatooine_zoom.dae',
 		capital : "Bestine",
 		abstract : "Tattoine (prononcé /tætu'in/; Jawaese: Tah doo Een e) était un monde désertique et la première plan!te de l'histoire du système binaire de Tatoo. Elle faisait partie du secteur Arkanis des Territoires Éloignés, habitée par de pauvres autochtones qui faisaient principalement pousser des moisissures pour survivre.",
@@ -50,7 +50,7 @@ var planetsMetadata = [
 	},
 	{
 		name : "Korriban",
-		image : './href/landscapes/Korriban.png',
+		image : './href/landscapes/korriban.png',
 		asset : './href/assets/korriban_zoom.dae',
 		capital : "Dresdahe",
 		abstract : "Coruscant, (prononcé /'k&#596;&#633;&#601;s&#593;nt/), originellement appelée Notron, aussi connue comme le Centre Impérial ou la Reine du Noyau, était une planète située au Coeur de la Galaxie. Il était généralement accordé que Coruscant était, durant la majorité de l'histoire galactique, le monde le plus important de la galaxie. À diverses époques, il s'agissait de la capitale de la République Galactique, de l'Empire Galactique, de la Nouvelle République, de l'empire Yuuzhan Vong, de l'Alliance Galactique, brièvement de l'Empire Fel, de l'Empire Galactique de Dark Krayt, et de la Fédération Galactique du Triumvirate. En contrôlant Coruscant, ces gouvernemens contrôlaient la plupart de la galaxie.",
@@ -62,7 +62,7 @@ var planetsMetadata = [
 	},
 	{
 		name : "Kamino",
-		image : './href/landscapes/Kamino.png',
+		image : './href/landscapes/kamino.png',
 		asset : './href/assets/kamino_zoom.dae',
 		capital : "Tipoca",
 		abstract : "Kamino (prononcé / k&#601;'mino&#650; / ) , aussi connu comme la planète des Tempêtes , est le monde aquatique où l'armée Clone de la République Galactique a été créé , ainsi que le Kamino Home Fleet . Elle était habitée par une race d' êtres , grandes et élégantes appelé Kaminoans , qui ont gardé pour eux-mêmes et ont été connus pour leur technologie de clonage . Kamino était situé juste au sud de la Rishi Maze , et a été régi par le Conseil de gouvernement , dirigé par le Premier ministre .",
@@ -74,7 +74,7 @@ var planetsMetadata = [
 	},
 	{
 		name : "Dagobah",
-		image : './href/landscapes/Dagobah.png',
+		image : './href/landscapes/dagobah.png',
 		asset : './href/assets/alderaan_zoom.dae',
 		capital : "",
 		abstract : "Dagobah était une planète de la Bordure Extérieure dans le système Dagobah . Un monde à distance des marécages et des forêts , il a servi de refuge pour Grand Maître Jedi Yoda pendant son exil , mais autrement, ne avait pas de vie intelligente notable.",
@@ -86,7 +86,7 @@ var planetsMetadata = [
 	},
 	{
 		name : "Mustafar",
-		image : './href/landscapes/Mustafar.png',
+		image : './href/landscapes/mustafar.png',
 		asset : './href/assets/mustafar_zoom.dae',
 		capital : "Fralideja",
 		abstract : "Coruscant, (prononcé /'k&#596;&#633;&#601;s&#593;nt/), originellement appelée Notron, aussi connue comme le Centre Impérial ou la Reine du Noyau, était une planète située au Coeur de la Galaxie. Il était généralement accordé que Coruscant était, durant la majorité de l'histoire galactique, le monde le plus important de la galaxie. À diverses époques, il s'agissait de la capitale de la République Galactique, de l'Empire Galactique, de la Nouvelle République, de l'empire Yuuzhan Vong, de l'Alliance Galactique, brièvement de l'Empire Fel, de l'Empire Galactique de Dark Krayt, et de la Fédération Galactique du Triumvirate. En contrôlant Coruscant, ces gouvernemens contrôlaient la plupart de la galaxie.",
