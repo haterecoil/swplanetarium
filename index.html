@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <title>STARWARS Planetarium</title>
+	    <meta name="description" content="">
+	    <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+	    <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+    <div id="loader">
+        <div id="home">
+            <div id="title">
+                <p>star</br>wars</p>
+                <p class="ds">planetarium</p>
+             </div>
+             <div id="enterbutton">
+                <a href="#" class="entrerbouton button raised ripple">ready for take off</a><br>
+            </div>
+        </div>
+    </div>
+  
+    <div id="content">
+        <div id="info">
+            <div class="header">
+                <div id="name">
+                    <h2 class="name"></h2>
+                </div>
+            </div>
+            <div class="content">
+              <p></p>
+            </div>
+            <a href="#" class="takeoff button raised ripple">ready for take off</a><br>
+            <a href="#" class="reset button raised danger ripple has-ripple">ruturn to galaxy</a>
+        </div>   
+        <div id="photo">
+          <img class="img_desc" src="" alt="planete">
+        </div>
+
+      <ul class='circle-container'>
+            <li class="test" data-index="0">
+                <a href='#'><img src="./href/img/planetes/Alderaan.png"></a>
+                <a>Alderaan</a>
+            </li>
+            <li class="test" data-index="1">
+                <a href='#'><img src="./href/img/planetes/Naboo.png"></a>
+                <a>Naboo</a>
+            </li>
+            <li class="test" data-index="2">
+                <a href='#'><img src="./href/img/planetes/Coruscant.png"></a>
+                <a>Coruscant</a>
+            </li>
+            <li class="test" data-index="3">
+                <a href='#'><img src="./href/img/planetes/Tatooine.png"></a>
+                <a>Tatooine</a>
+            </li>
+            <li class="test" data-index="4">
+                <a href='#'><img src="./href/img/planetes/Korriban.png"></a>
+                <a>Korriban</a>
+            </li>
+            <li class="test" data-index="5">
+                <a href='#'><img src="./href/img/planetes/Kamino.png"></a>
+                <a>Kamino</a>
+            </li>
+            <li class="test" data-index="6">
+                <a href='#'><img src="./href/img/planetes/Dagobah.png"></a>
+                <a>Dagobah</a>
+            </li>
+            <li class="test" data-index="7">
+                <a href='#'><img src="./href/img/planetes/Mustafar.png"></a>
+                <a>Mustafar</a>
+            </li>
+      </ul>
+
+        <div id="container"></div>
+      
+    </div>
+
+		<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+    	<script type="text/javascript" src="./js/three.min.js"></script>
+        <script type="text/javascript" src="./js/OrbitControls.js"></script>
+    	<script type="text/javascript" src="./js/ColladaLoader.js"></script>
+    	<script type="text/javascript" src="./js/planeteCoords.js"></script>
+    	<script type="text/javascript" src="./js/tween.min.js"></script>
+        <script type="text/javascript" src="./js/planetsMetadata.js"></script>
+
+        <script type="text/javascript" src="./js/light.js"></script>
+    	<script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
